@@ -1,0 +1,134 @@
+body {  
+    
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(../../img/fondo-degradado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #000;
+    color: #fff;
+    display: cover;
+    justify-content: center;
+    align-items: center; 
+    
+}  
+
+.navbar {  
+    display: flex;  
+    align-items: center;  
+    justify-content: flex-start; /* Alinea los elementos al inicio */  
+    padding: 10px 20px; /* Espaciado interior */  
+    background-color: #333; /* Color de fondo de la barra */  
+    color: white; /* Color del texto */  
+}  
+
+#studiopluss {  
+    font-size: 1.5em; /* Tamaño de la fuente */  
+    font-weight: bold; /* Negrita */  
+    margin-left: 2px; /* Espacio de 2px entre el logo y el texto */
+}
+
+.logo {  
+    height: 50px; /* Ajusta la altura del logo según sea necesario */
+    border-radius: 10px;
+}  
+
+.menu {  
+    margin-left: auto; /* Empuja el menú al extremo derecho */  
+}
+
+.menu ul {  
+    list-style: none; /* Elimina los puntos de la lista */  
+    margin: 0; /* Elimina margen */  
+    padding: 0; /* Elimina padding */  
+    display: flex; /* Muestra los elementos de la lista en línea */  
+}  
+
+.menu li {  
+    margin: 0 ; /* Espacio entre los elementos del menú */  
+}  
+
+.menu a {  
+    color: white; /* Color de los enlaces */  
+    text-decoration: none; /* Sin subrayado */  
+    padding: 5px 10px; /* Espaciado interior de los enlaces */  
+}  
+
+.menu a:hover {  
+    background-color: #555; /* Cambia el fondo al pasar el ratón */  
+    border-radius: 5px; /* Bordes redondeados */  
+    display: inline-block; /* Muestra los elementos en línea */
+}
+
+.acceso-rapido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.acceso-rapido input[type="text"] {
+    flex: 2; /* Hace que el campo de búsqueda ocupe más espacio */
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.acceso-rapido button {
+    flex: 1; /* Hace que los botones ocupen menos espacio */
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px; /* Espacio entre el campo de búsqueda y los botones */
+    margin-right: 10px; /* Espacio entre los botones */
+    width: 19%; 
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    padding-top: 60px; /* Place content 60px from the top */
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .no-media-movil {
+        display: none; /* Oculta el elemento en pantallas pequeñas */
+    }
+}

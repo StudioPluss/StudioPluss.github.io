@@ -1,0 +1,53 @@
+<!DOCTYPE html>  
+<html lang="es">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="StudioPluss una herramienta de cursos variados y material de estudio"> <!-- Agrega una descripción de la página -->  
+    <title>StudioPluss</title>  
+    <link rel="stylesheet" href="css/styles.css"> <!-- Enlaza tu archivo CSS -->  
+    <link rel="icon" href="img/logo-StudioPluss.png" type="image/png"> <!-- Cambia "logo.png" por la ruta de tu logo -->
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script> <!-- Agrega los íconos de FontAwesome -->
+</head>  
+<body>  
+    <header class="navbar">  
+        <span id="studiopluss">StudioPluss</span>
+        <img src="img/logo-StudioPluss.png" alt="Logo" class="logo"> <!-- Cambia "logo.png" por la ruta de tu logo -->  
+        <nav class="menu">  
+            <ul>  
+                <li class="no-media-movil"><a href="pages/cursos/cursos.html">Cursos</a></li>  
+                <li class="no-media-movil"><a href="#favoritos">Favoritos</a></li>  
+                <li class="media-movil"><a href="#iniciar">Iniciar Sesion</a></li>  
+                <li class="media-movil"><a href="#registrarse">Registrarse</a></li>
+            </ul>  
+        </nav>  
+    </header>  
+    <div class="acceso-rapido">
+        <button id="boton-menu" onclick="openNav()">Menu</button>
+        <input type="text" placeholder="Buscar">
+        <button id="boton-ajustes">Ajustes</button>
+    </div>
+    <h1>Studio Pluss</h1>
+    <p class="Sobre-StudioPluss">¿Que es StudioPluss?
+        <br>
+        <strong>StudioPluss</strong>
+        es una plataforma de educación virtual que te permite aprender de manera facil y rapida, con cursos de alta calidad y con material especializado para cada curso.
+    </p>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="pages/cursos/cursos.html">Cursos</a>
+        <a href="pages/usuarios/favoritos.html">Favoritos</a>
+        <a href="pages/usuarios/historial.html">Historial</a>
+        <a href="pages/usuarios/perfil.html">Perfil</a>
+    </div>
+    
+
+    <a href="pages/cursos/cursos.html   " class="menu-cursos">
+            Empezar
+    </a>
+
+
+    <script src="js/app.js"></script>
+</body>
+</html>
